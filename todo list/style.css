@@ -1,0 +1,85 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+}
+
+#todo-container {
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  max-width: 500px;
+  transition: all 0.3s ease-in-out;
+}
+
+#todo-container:hover {
+  transform: scale(1.02);
+}
+
+input[type="text"] {
+  margin: 5px;
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #0056b3, #007bff);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #e1e1e1;
+}
+
+.remove-button {
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff0000, #a30000);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+}
+
+.remove-button:hover {
+  background: linear-gradient(90deg, #a30000, #ff0000);
+}

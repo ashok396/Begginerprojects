@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids</title>
+    <style>
+
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%;
+           /* grid-column-gap:1em;*/
+           /* grid-row-gap:1em;*/
+            /** grid- column-gap:
+            grid-row-gap:1em;**/
+            grid-gap:1em;
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #add;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque, quia vitae laborum sint sed officiis delectus illo esse alias hic doloribus quas, molestiae odit facere voluptatibus minus impedit in. Voluptate consequuntur nostrum soluta maiores eligendi repudiandae animi ducimus suscipit ipsum, voluptatum rerum non exercitationem ab dolores voluptas amet, magni et fuga veniam. Dolorum eligendi unde molestias voluptatem ea modi pariatur aspernatur necessitatibus corrupti eaque excepturi culpa laudantium tenetur veritatis magnam, similique, delectus deleniti molestiae incidunt ullam totam laboriosam tempore?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus dolores, eum at dignissimos velit minima praesentium itaque enim harum qui veritatis nesciunt officia libero, fugiat voluptatem, est quasi. Libero, eaque?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque, quia vitae laborum sint sed officiis delectus illo esse alias hic doloribus quas, molestiae odit facere voluptatibus minus impedit in. Voluptate consequuntur nostrum soluta maiores eligendi repudiandae animi ducimus suscipit ipsum, voluptatum rerum non exercitationem ab dolores voluptas amet, magni et fuga veniam. Dolorum eligendi unde molestias voluptatem ea modi pariatur aspernatur necessitatibus corrupti eaque excepturi culpa laudantium tenetur veritatis magnam, similique, delectus deleniti molestiae incidunt ullam totam laboriosam tempore?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus dolores, eum at dignissimos velit minima praesentium itaque enim harum qui veritatis nesciunt officia libero, fugiat voluptatem, est quasi. Libero, eaque?
+        </div>
+    </div>
+</body>
+</html>
