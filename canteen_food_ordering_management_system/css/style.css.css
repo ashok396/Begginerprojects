@@ -1,0 +1,9 @@
+body{background-color:lightblue;font-family:Arial;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+.form{width: 300px; margin: 0 auto;}
+
+input[type='text'],input[type='date'],input[type='email'], input[type='password'] {background-color:lightgreen; width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; color: #333; font-size: 14px; margin-top: 10px;}
+
